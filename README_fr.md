@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Cette application est une implémentation en ligne et open source de l’excellent jeu de plateau Terraforming mars. Elle n’est affiliée à FryxGames, Asmodee Digital ou Steam en aucun cas.
 
-**Version incluse :** 2024.01.21~ynh1
+**Version incluse :** 2024.01.24~ynh1
 
 **Démo :** https://terraforming-mars.herokuapp.com/
 
