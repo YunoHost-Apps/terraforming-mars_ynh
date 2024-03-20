@@ -18,10 +18,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 This is an open-source online implementation of the great board game Terraforming mars. It is not affiliated with FryxGames, Asmodee Digital or Steam in any way.
 
+**Shipped version:** 2024.03.18~ynh1
 
-**Shipped version:** 2024.03.04~ynh1
-
-**Demo:** https://terraforming-mars.herokuapp.com/
+**Demo:** <https://terraforming-mars.herokuapp.com/>
 
 ## Screenshots
 
@@ -39,7 +38,7 @@ Please send your pull request to the [testing branch](https://github.com/YunoHos
 
 To try the testing branch, please proceed like that.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/terraforming-mars_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade terraforming-mars -u https://github.com/YunoHost-Apps/terraforming-mars_ynh/tree/testing --debug
