@@ -30,7 +30,7 @@ ynh_backup "/etc/logrotate.d/$app"
 #=================================================
 ynh_print_info "Backing up the PostgreSQL database..."
 
-ynh_psql_dump_db > db.sql
+ynh_psql_dump_db > "db.sql"
 
 #=================================================
 # END OF SCRIPT
