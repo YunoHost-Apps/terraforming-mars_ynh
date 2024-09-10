@@ -35,7 +35,7 @@ This is an open-source online implementation of the great board game Terraformin
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/terraforming-mars_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/terraforming-mars_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
