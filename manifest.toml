@@ -17,7 +17,8 @@ demo = "https://terraforming-mars.herokuapp.com/"
 code = "https://github.com/terraforming-mars/terraforming-mars"
 
 [integration]
-yunohost = ">= 11.2.4"
+yunohost = ">= 11.2.18"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
