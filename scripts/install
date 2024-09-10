@@ -46,12 +46,12 @@ ynh_config_add --template=".env" --destination="$install_dir/.env"
 pushd $install_dir
 
 	ynh_script_progression "npm install... This can be very long, be patient !"
-	ynh_hide_warnings ynh_exec_as_app node_load_PATH npm ci --quiet --production --prefer-offline --network-timeout=100000
-	ynh_hide_warnings ynh_exec_as_app node_load_PATH npm install --save-dev @types/html-escaper
+	ynh_hide_warnings ynh_exec_as_app ynh_node_load_PATH npm ci --quiet --production --prefer-offline --network-timeout=100000
+	ynh_hide_warnings ynh_exec_as_app ynh_node_load_PATH npm install --save-dev @types/html-escaper
 
 	ynh_script_progression "npm run build... This can be very long, be patient !"
 	SOURCE_VERSION="$(cat $YNH_APP_BASEDIR/manifest.toml | toml_to_json | jq -r ".resources.sources.main.url" | awk -F/ '{ print $NF }')"
-	ynh_hide_warnings ynh_exec_as_app node_load_PATH SOURCE_VERSION="$SOURCE_VERSION" npm run build
+	ynh_hide_warnings ynh_exec_as_app ynh_node_load_PATH SOURCE_VERSION="$SOURCE_VERSION" npm run build
 popd
 
 #=================================================
