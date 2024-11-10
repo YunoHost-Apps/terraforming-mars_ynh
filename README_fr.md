@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Cette application est une implémentation en ligne et open source de l’excellent jeu de plateau Terraforming mars. Elle n’est affiliée à FryxGames, Asmodee Digital ou Steam en aucun cas.
 
-**Version incluse :** 2024.10.13~ynh1
+**Version incluse :** 2024.10.28~ynh1
 
 **Démo :** <https://terraforming-mars.herokuapp.com/>
 
