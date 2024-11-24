@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Terraforming Mars  voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/terraforming-mars.svg)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/terraforming-mars.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/terraforming-mars.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/terraforming-mars)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/terraforming-mars)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/terraforming-mars)
 
 [![Terraforming Mars  met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=terraforming-mars)
 
@@ -19,7 +21,7 @@ Hij mag NIET handmatig aangepast worden.
 This is an open-source online implementation of the great board game Terraforming mars. It is not affiliated with FryxGames, Asmodee Digital or Steam in any way.
 
 
-**Geleverde versie:** 2024.11.07~ynh1
+**Geleverde versie:** 2024.11.24~ynh1
 
 **Demo:** <https://terraforming-mars.herokuapp.com/>
 
