@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Terraforming Mars  untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/terraforming-mars.svg)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/terraforming-mars.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/terraforming-mars.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/terraforming-mars)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/)
+![Status kerja](https://apps.yunohost.org/badge/state/terraforming-mars)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/terraforming-mars)
 
 [![Pasang Terraforming Mars  dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=terraforming-mars)
 
@@ -19,7 +21,7 @@ Ini TIDAK boleh diedit dengan tangan.
 This is an open-source online implementation of the great board game Terraforming mars. It is not affiliated with FryxGames, Asmodee Digital or Steam in any way.
 
 
-**Versi terkirim:** 2024.11.07~ynh1
+**Versi terkirim:** 2024.11.24~ynh1
 
 **Demo:** <https://terraforming-mars.herokuapp.com/>
 

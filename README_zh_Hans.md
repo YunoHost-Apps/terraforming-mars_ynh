@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Terraforming Mars 
 
-[![集成程度](https://dash.yunohost.org/integration/terraforming-mars.svg)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/terraforming-mars.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/terraforming-mars.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/terraforming-mars)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/)
+![工作状态](https://apps.yunohost.org/badge/state/terraforming-mars)
+![维护状态](https://apps.yunohost.org/badge/maintained/terraforming-mars)
 
 [![使用 YunoHost 安装 Terraforming Mars ](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=terraforming-mars)
 
@@ -19,7 +21,7 @@
 This is an open-source online implementation of the great board game Terraforming mars. It is not affiliated with FryxGames, Asmodee Digital or Steam in any way.
 
 
-**分发版本：** 2024.11.07~ynh1
+**分发版本：** 2024.11.24~ynh1
 
 **演示：** <https://terraforming-mars.herokuapp.com/>
 
