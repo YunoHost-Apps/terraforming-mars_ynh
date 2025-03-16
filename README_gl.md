@@ -21,7 +21,7 @@ NON debe editarse manualmente.
 This is an open-source online implementation of the great board game Terraforming mars. It is not affiliated with FryxGames, Asmodee Digital or Steam in any way.
 
 
-**Versión proporcionada:** 2025.03.06~ynh1
+**Versión proporcionada:** 2025.03.13~ynh1
 
 **Demo:** <https://terraforming-mars.herokuapp.com/>
 
