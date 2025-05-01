@@ -4,6 +4,13 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
+# STOP SYSTEMD SERVICE
+#=================================================
+ynh_script_progression "Stopping $app's systemd service..."
+
+ynh_systemctl --service=$app --action="stop"
+
+#=================================================
 # INSTALL DEPENDENCIES
 #=================================================
 ynh_script_progression "Installing dependencies..."
@@ -19,18 +26,9 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir" --full_replace
 
 #=================================================
-# STOP SYSTEMD SERVICE
-#=================================================
-ynh_script_progression "Stopping $app's systemd service..."
-
-ynh_systemctl --service=$app --action="stop"
-
-#=================================================
-# RECONFIGURE THE APP (UPDATE CONF, APPLY MIGRATIONS...)
-#=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-ynh_script_progression "Updating configuration..."
+ynh_script_progression "Updating $app's configuration files..."
 
 ynh_config_add --template=".env" --destination="$install_dir/.env"
 
@@ -61,15 +59,6 @@ ynh_config_add_systemd
 yunohost service add $app --description="Terraforming-Mars Service" --log="/var/log/$app/$app.log"
 
 ynh_config_add_logrotate
-
-#=================================================
-# RECONFIGURE THE APP (UPDATE CONF, APPLY MIGRATIONS...)
-#=================================================
-# UPDATE A CONFIG FILE
-#=================================================
-ynh_script_progression "Updating configuration..."
-
-ynh_config_add --template=".env" --destination="$install_dir/.env"
 
 #=================================================
 # START SYSTEMD SERVICE
