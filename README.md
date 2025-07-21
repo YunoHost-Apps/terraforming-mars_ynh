@@ -11,7 +11,7 @@ It shall NOT be edited by hand.
 Implementation of Terraforming Mars board game
 
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://terraforming-mars.herokuapp.com/)
-[![Version: 2025.07.13~ynh1](https://img.shields.io/badge/Version-2025.07.13~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/)
+[![Version: 2025.07.20~ynh1](https://img.shields.io/badge/Version-2025.07.20~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/terraforming-mars/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/terraforming-mars"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
