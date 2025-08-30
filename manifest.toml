@@ -7,7 +7,7 @@ name = "Terraforming Mars "
 description.en = "Implementation of Terraforming Mars board game"
 description.fr = "Implementation du jeu de plateau Terraforming Mars"
 
-version = "2025.08.22~ynh1"
+version = "2025.08.22~ynh2"
 
 maintainers = ["Thovi98"]
 
