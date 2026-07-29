@@ -46,8 +46,8 @@ ram.runtime = "50M"
     [resources.sources]
 
       [resources.sources.main]
-        url = "https://github.com/Thovi98/terraforming-mars/archive/062f9551f0fa3724090591e44e3c95bfbc5f9d0a.tar.gz"
-        sha256 = "79754ae4c4172bd370d6823e1392b6d838a0dff3d116a63dbf95036fde497e10"
+        url = "https://github.com/Thovi98/terraforming-mars/archive/667e23e020df92fcf181ecd5f0cff1ff8d115dc3.tar.gz"
+        sha256 = "33b8d495d3278167e655215aa5f260c83e0ea3b775cebf9fd0ca3ff0a14c28b1"
         in_subdir = true
         autoupdate.strategy = "latest_github_commit"
    
